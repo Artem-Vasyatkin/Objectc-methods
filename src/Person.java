@@ -8,7 +8,7 @@ public class Person {
     }
 
     public boolean isAdult() {
-        return getAge() > 18;
+        return this.getAge() > 18;
     }
     public String getName() {
         return this.name;
